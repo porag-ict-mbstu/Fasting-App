@@ -44,7 +44,8 @@ class FacebookSignInViewController: UIViewController,LoginButtonDelegate {
     }
     
     func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
-        
+        print("logout")
+        AccessToken.current = nil
     }
 
 
