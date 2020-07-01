@@ -8,14 +8,47 @@
 
 import UIKit
 import CoreData
+import GoogleSignIn
+import Firebase
+import FBSDKLoginKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate {
+    
+    //MARK:- Google Sign
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        //print("User Email \(user.profile.email ?? "No Email")")
+    }
+    
 
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        //MARK:- Facebook Test
+        ApplicationDelegate.shared.application(
+            app,
+            open: url,
+            sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+            annotation: options[UIApplication.OpenURLOptionsKey.annotation]
+        )
+        
+        
+        return GIDSignIn.sharedInstance().handle(url)
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //MARK:- Google
+        FirebaseApp.configure()
+        GIDSignIn.sharedInstance()?.delegate = self
+        GIDSignIn.sharedInstance()?.clientID = "803443962594-oq0ddff9f875jr4rb1qolugam5obmnee.apps.googleusercontent.com"
+        
+        
+        //MARK: Facebook
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
         return true
     }
 

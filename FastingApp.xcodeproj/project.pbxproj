@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7BB511E24AC488700C6B036 /* AppleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB511C24AC488700C6B036 /* AppleSignInViewController.swift */; };
+		D7BB511F24AC488700C6B036 /* AppleSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB511D24AC488700C6B036 /* AppleSignInViewController.xib */; };
+		D7BB512224AC489B00C6B036 /* FacebookSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB512024AC489B00C6B036 /* FacebookSignInViewController.swift */; };
+		D7BB512324AC489B00C6B036 /* FacebookSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB512124AC489B00C6B036 /* FacebookSignInViewController.xib */; };
+		D7BB512624AC48AC00C6B036 /* GoogleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB512424AC48AC00C6B036 /* GoogleSignInViewController.swift */; };
+		D7BB512724AC48AC00C6B036 /* GoogleSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB512524AC48AC00C6B036 /* GoogleSignInViewController.xib */; };
+		D7BB512A24AC48BD00C6B036 /* EmailSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB512824AC48BD00C6B036 /* EmailSignInViewController.swift */; };
+		D7BB512B24AC48BD00C6B036 /* EmailSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB512924AC48BD00C6B036 /* EmailSignInViewController.xib */; };
+		D7BB512D24AC4A6D00C6B036 /* AppleSignInClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB512C24AC4A6D00C6B036 /* AppleSignInClient.swift */; };
+		D7BB512F24AC4E2600C6B036 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7BB512E24AC4E2600C6B036 /* GoogleService-Info.plist */; };
+		D7BB513224AC70F000C6B036 /* SignupWithEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB513024AC70F000C6B036 /* SignupWithEmailViewController.swift */; };
+		D7BB513324AC70F000C6B036 /* SignupWithEmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB513124AC70F000C6B036 /* SignupWithEmailViewController.xib */; };
+		D7BB513624AC745000C6B036 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB513424AC745000C6B036 /* HomeViewController.swift */; };
+		D7BB513724AC745000C6B036 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB513524AC745000C6B036 /* HomeViewController.xib */; };
 		D7FFA2C524AB2AB500E009B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFA2C424AB2AB500E009B8 /* AppDelegate.swift */; };
 		D7FFA2C724AB2AB500E009B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFA2C624AB2AB500E009B8 /* SceneDelegate.swift */; };
 		D7FFA2C924AB2AB500E009B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFA2C824AB2AB500E009B8 /* ViewController.swift */; };
@@ -14,9 +28,27 @@
 		D7FFA2CF24AB2AB500E009B8 /* FastingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7FFA2CD24AB2AB500E009B8 /* FastingApp.xcdatamodeld */; };
 		D7FFA2D124AB2AB600E009B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FFA2D024AB2AB600E009B8 /* Assets.xcassets */; };
 		D7FFA2D424AB2AB600E009B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FFA2D224AB2AB600E009B8 /* LaunchScreen.storyboard */; };
+		FD8E61CED1CE8E9E726A4F10 /* Pods_FastingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE87EEC3B15C3FD052C01D25 /* Pods_FastingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C527C26C24133835E931C5B1 /* Pods-FastingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastingApp.debug.xcconfig"; path = "Target Support Files/Pods-FastingApp/Pods-FastingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8E09A0F9D3C9B46973C890 /* Pods-FastingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastingApp.release.xcconfig"; path = "Target Support Files/Pods-FastingApp/Pods-FastingApp.release.xcconfig"; sourceTree = "<group>"; };
+		D7BB511724AC46ED00C6B036 /* FastingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastingApp.entitlements; sourceTree = "<group>"; };
+		D7BB511C24AC488700C6B036 /* AppleSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInViewController.swift; sourceTree = "<group>"; };
+		D7BB511D24AC488700C6B036 /* AppleSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppleSignInViewController.xib; sourceTree = "<group>"; };
+		D7BB512024AC489B00C6B036 /* FacebookSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSignInViewController.swift; sourceTree = "<group>"; };
+		D7BB512124AC489B00C6B036 /* FacebookSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookSignInViewController.xib; sourceTree = "<group>"; };
+		D7BB512424AC48AC00C6B036 /* GoogleSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInViewController.swift; sourceTree = "<group>"; };
+		D7BB512524AC48AC00C6B036 /* GoogleSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleSignInViewController.xib; sourceTree = "<group>"; };
+		D7BB512824AC48BD00C6B036 /* EmailSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignInViewController.swift; sourceTree = "<group>"; };
+		D7BB512924AC48BD00C6B036 /* EmailSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailSignInViewController.xib; sourceTree = "<group>"; };
+		D7BB512C24AC4A6D00C6B036 /* AppleSignInClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInClient.swift; sourceTree = "<group>"; };
+		D7BB512E24AC4E2600C6B036 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7BB513024AC70F000C6B036 /* SignupWithEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWithEmailViewController.swift; sourceTree = "<group>"; };
+		D7BB513124AC70F000C6B036 /* SignupWithEmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupWithEmailViewController.xib; sourceTree = "<group>"; };
+		D7BB513424AC745000C6B036 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7BB513524AC745000C6B036 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		D7FFA2C124AB2AB500E009B8 /* FastingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FFA2C424AB2AB500E009B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7FFA2C624AB2AB500E009B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +58,7 @@
 		D7FFA2D024AB2AB600E009B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7FFA2D324AB2AB600E009B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7FFA2D524AB2AB600E009B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE87EEC3B15C3FD052C01D25 /* Pods_FastingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +66,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8E61CED1CE8E9E726A4F10 /* Pods_FastingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034519CB667BD090BEAB1BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C527C26C24133835E931C5B1 /* Pods-FastingApp.debug.xcconfig */,
+				CB8E09A0F9D3C9B46973C890 /* Pods-FastingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6430911FA8B062BFDEDCEF65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE87EEC3B15C3FD052C01D25 /* Pods_FastingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7BB511824AC484600C6B036 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB511C24AC488700C6B036 /* AppleSignInViewController.swift */,
+				D7BB511D24AC488700C6B036 /* AppleSignInViewController.xib */,
+				D7BB512C24AC4A6D00C6B036 /* AppleSignInClient.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		D7BB511924AC485300C6B036 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB512024AC489B00C6B036 /* FacebookSignInViewController.swift */,
+				D7BB512124AC489B00C6B036 /* FacebookSignInViewController.xib */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		D7BB511A24AC485D00C6B036 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB512424AC48AC00C6B036 /* GoogleSignInViewController.swift */,
+				D7BB512524AC48AC00C6B036 /* GoogleSignInViewController.xib */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		D7BB511B24AC486400C6B036 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				D7BB512824AC48BD00C6B036 /* EmailSignInViewController.swift */,
+				D7BB512924AC48BD00C6B036 /* EmailSignInViewController.xib */,
+				D7BB513024AC70F000C6B036 /* SignupWithEmailViewController.swift */,
+				D7BB513124AC70F000C6B036 /* SignupWithEmailViewController.xib */,
+				D7BB513424AC745000C6B036 /* HomeViewController.swift */,
+				D7BB513524AC745000C6B036 /* HomeViewController.xib */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
 		D7FFA2B824AB2AB500E009B8 = {
 			isa = PBXGroup;
 			children = (
 				D7FFA2C324AB2AB500E009B8 /* FastingApp */,
 				D7FFA2C224AB2AB500E009B8 /* Products */,
+				034519CB667BD090BEAB1BD7 /* Pods */,
+				6430911FA8B062BFDEDCEF65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +152,12 @@
 		D7FFA2C324AB2AB500E009B8 /* FastingApp */ = {
 			isa = PBXGroup;
 			children = (
+				D7BB512E24AC4E2600C6B036 /* GoogleService-Info.plist */,
+				D7BB511B24AC486400C6B036 /* Email */,
+				D7BB511A24AC485D00C6B036 /* Google */,
+				D7BB511924AC485300C6B036 /* Facebook */,
+				D7BB511824AC484600C6B036 /* Apple */,
+				D7BB511724AC46ED00C6B036 /* FastingApp.entitlements */,
 				D7FFA2C424AB2AB500E009B8 /* AppDelegate.swift */,
 				D7FFA2C624AB2AB500E009B8 /* SceneDelegate.swift */,
 				D7FFA2C824AB2AB500E009B8 /* ViewController.swift */,
@@ -77,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7FFA2D824AB2AB600E009B8 /* Build configuration list for PBXNativeTarget "FastingApp" */;
 			buildPhases = (
+				7B6A7D29E378E0968FB04AC9 /* [CP] Check Pods Manifest.lock */,
 				D7FFA2BD24AB2AB500E009B8 /* Sources */,
 				D7FFA2BE24AB2AB500E009B8 /* Frameworks */,
 				D7FFA2BF24AB2AB500E009B8 /* Resources */,
+				57290CD756AA9E6512423260 /* [CP] Embed Pods Frameworks */,
+				26D8C39BE4F8E04A5322F5BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,23 +231,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BB512324AC489B00C6B036 /* FacebookSignInViewController.xib in Resources */,
+				D7BB512F24AC4E2600C6B036 /* GoogleService-Info.plist in Resources */,
+				D7BB512724AC48AC00C6B036 /* GoogleSignInViewController.xib in Resources */,
 				D7FFA2D424AB2AB600E009B8 /* LaunchScreen.storyboard in Resources */,
+				D7BB512B24AC48BD00C6B036 /* EmailSignInViewController.xib in Resources */,
+				D7BB513324AC70F000C6B036 /* SignupWithEmailViewController.xib in Resources */,
 				D7FFA2D124AB2AB600E009B8 /* Assets.xcassets in Resources */,
+				D7BB513724AC745000C6B036 /* HomeViewController.xib in Resources */,
 				D7FFA2CC24AB2AB500E009B8 /* Main.storyboard in Resources */,
+				D7BB511F24AC488700C6B036 /* AppleSignInViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26D8C39BE4F8E04A5322F5BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastingApp/Pods-FastingApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastingApp/Pods-FastingApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastingApp/Pods-FastingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57290CD756AA9E6512423260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastingApp/Pods-FastingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastingApp/Pods-FastingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastingApp/Pods-FastingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6A7D29E378E0968FB04AC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7FFA2BD24AB2AB500E009B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BB512D24AC4A6D00C6B036 /* AppleSignInClient.swift in Sources */,
+				D7BB512624AC48AC00C6B036 /* GoogleSignInViewController.swift in Sources */,
+				D7BB512A24AC48BD00C6B036 /* EmailSignInViewController.swift in Sources */,
 				D7FFA2CF24AB2AB500E009B8 /* FastingApp.xcdatamodeld in Sources */,
 				D7FFA2C924AB2AB500E009B8 /* ViewController.swift in Sources */,
 				D7FFA2C524AB2AB500E009B8 /* AppDelegate.swift in Sources */,
+				D7BB511E24AC488700C6B036 /* AppleSignInViewController.swift in Sources */,
+				D7BB513624AC745000C6B036 /* HomeViewController.swift in Sources */,
+				D7BB512224AC489B00C6B036 /* FacebookSignInViewController.swift in Sources */,
 				D7FFA2C724AB2AB500E009B8 /* SceneDelegate.swift in Sources */,
+				D7BB513224AC70F000C6B036 /* SignupWithEmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +462,10 @@
 		};
 		D7FFA2D924AB2AB600E009B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C527C26C24133835E931C5B1 /* Pods-FastingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastingApp/FastingApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92L57X7YGH;
 				INFOPLIST_FILE = FastingApp/Info.plist;
@@ -304,8 +482,10 @@
 		};
 		D7FFA2DA24AB2AB600E009B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8E09A0F9D3C9B46973C890 /* Pods-FastingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastingApp/FastingApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92L57X7YGH;
 				INFOPLIST_FILE = FastingApp/Info.plist;

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>803443962594-oq0ddff9f875jr4rb1qolugam5obmnee.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.803443962594-oq0ddff9f875jr4rb1qolugam5obmnee</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCC5v5LSQZJNGa5plMqlR55DAeaRwr9tiQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>803443962594</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kabir.FastingApp</string>
+	<key>PROJECT_ID</key>
+	<string>fastingapp-4b94d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fastingapp-4b94d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:803443962594:ios:81dd9be5a8e04df59564bb</string>
+	<key>DATABASE_URL</key>
+	<string>https://fastingapp-4b94d.firebaseio.com</string>
+</dict>
+</plist>
