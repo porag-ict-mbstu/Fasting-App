@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72B651F24ADA0EE00198D4F /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B651E24ADA0EE00198D4F /* CircularProgressView.swift */; };
+		D72B652224ADA15200198D4F /* CircularProgessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B652024ADA15200198D4F /* CircularProgessVC.swift */; };
+		D72B652324ADA15200198D4F /* CircularProgessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B652124ADA15200198D4F /* CircularProgessVC.xib */; };
+		D72B652724ADBD4600198D4F /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B652524ADBD4600198D4F /* EmailViewController.swift */; };
+		D72B652824ADBD4600198D4F /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B652624ADBD4600198D4F /* EmailViewController.xib */; };
+		D72B652B24ADBD5B00198D4F /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B652924ADBD5B00198D4F /* OTPViewController.swift */; };
+		D72B652C24ADBD5B00198D4F /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B652A24ADBD5B00198D4F /* OTPViewController.xib */; };
 		D7BB511E24AC488700C6B036 /* AppleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB511C24AC488700C6B036 /* AppleSignInViewController.swift */; };
 		D7BB511F24AC488700C6B036 /* AppleSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BB511D24AC488700C6B036 /* AppleSignInViewController.xib */; };
 		D7BB512224AC489B00C6B036 /* FacebookSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB512024AC489B00C6B036 /* FacebookSignInViewController.swift */; };
@@ -34,6 +41,13 @@
 /* Begin PBXFileReference section */
 		C527C26C24133835E931C5B1 /* Pods-FastingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastingApp.debug.xcconfig"; path = "Target Support Files/Pods-FastingApp/Pods-FastingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CB8E09A0F9D3C9B46973C890 /* Pods-FastingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastingApp.release.xcconfig"; path = "Target Support Files/Pods-FastingApp/Pods-FastingApp.release.xcconfig"; sourceTree = "<group>"; };
+		D72B651E24ADA0EE00198D4F /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		D72B652024ADA15200198D4F /* CircularProgessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgessVC.swift; sourceTree = "<group>"; };
+		D72B652124ADA15200198D4F /* CircularProgessVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularProgessVC.xib; sourceTree = "<group>"; };
+		D72B652524ADBD4600198D4F /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		D72B652624ADBD4600198D4F /* EmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
+		D72B652924ADBD5B00198D4F /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		D72B652A24ADBD5B00198D4F /* OTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
 		D7BB511724AC46ED00C6B036 /* FastingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastingApp.entitlements; sourceTree = "<group>"; };
 		D7BB511C24AC488700C6B036 /* AppleSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInViewController.swift; sourceTree = "<group>"; };
 		D7BB511D24AC488700C6B036 /* AppleSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppleSignInViewController.xib; sourceTree = "<group>"; };
@@ -90,6 +104,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D72B651D24ADA0A100198D4F /* Circular ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				D72B651E24ADA0EE00198D4F /* CircularProgressView.swift */,
+				D72B652024ADA15200198D4F /* CircularProgessVC.swift */,
+				D72B652124ADA15200198D4F /* CircularProgessVC.xib */,
+			);
+			path = "Circular ProgressView";
+			sourceTree = "<group>";
+		};
+		D72B652424ADBD2A00198D4F /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				D72B652524ADBD4600198D4F /* EmailViewController.swift */,
+				D72B652624ADBD4600198D4F /* EmailViewController.xib */,
+				D72B652924ADBD5B00198D4F /* OTPViewController.swift */,
+				D72B652A24ADBD5B00198D4F /* OTPViewController.xib */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
 		D7BB511824AC484600C6B036 /* Apple */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +156,7 @@
 		D7BB511B24AC486400C6B036 /* Email */ = {
 			isa = PBXGroup;
 			children = (
+				D72B652424ADBD2A00198D4F /* OTP */,
 				D7BB512824AC48BD00C6B036 /* EmailSignInViewController.swift */,
 				D7BB512924AC48BD00C6B036 /* EmailSignInViewController.xib */,
 				D7BB513024AC70F000C6B036 /* SignupWithEmailViewController.swift */,
@@ -152,6 +188,7 @@
 		D7FFA2C324AB2AB500E009B8 /* FastingApp */ = {
 			isa = PBXGroup;
 			children = (
+				D72B651D24ADA0A100198D4F /* Circular ProgressView */,
 				D7BB512E24AC4E2600C6B036 /* GoogleService-Info.plist */,
 				D7BB511B24AC486400C6B036 /* Email */,
 				D7BB511A24AC485D00C6B036 /* Google */,
@@ -234,8 +271,11 @@
 				D7BB512324AC489B00C6B036 /* FacebookSignInViewController.xib in Resources */,
 				D7BB512F24AC4E2600C6B036 /* GoogleService-Info.plist in Resources */,
 				D7BB512724AC48AC00C6B036 /* GoogleSignInViewController.xib in Resources */,
+				D72B652824ADBD4600198D4F /* EmailViewController.xib in Resources */,
 				D7FFA2D424AB2AB600E009B8 /* LaunchScreen.storyboard in Resources */,
 				D7BB512B24AC48BD00C6B036 /* EmailSignInViewController.xib in Resources */,
+				D72B652324ADA15200198D4F /* CircularProgessVC.xib in Resources */,
+				D72B652C24ADBD5B00198D4F /* OTPViewController.xib in Resources */,
 				D7BB513324AC70F000C6B036 /* SignupWithEmailViewController.xib in Resources */,
 				D7FFA2D124AB2AB600E009B8 /* Assets.xcassets in Resources */,
 				D7BB513724AC745000C6B036 /* HomeViewController.xib in Resources */,
@@ -310,16 +350,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72B652B24ADBD5B00198D4F /* OTPViewController.swift in Sources */,
 				D7BB512D24AC4A6D00C6B036 /* AppleSignInClient.swift in Sources */,
 				D7BB512624AC48AC00C6B036 /* GoogleSignInViewController.swift in Sources */,
 				D7BB512A24AC48BD00C6B036 /* EmailSignInViewController.swift in Sources */,
 				D7FFA2CF24AB2AB500E009B8 /* FastingApp.xcdatamodeld in Sources */,
+				D72B652224ADA15200198D4F /* CircularProgessVC.swift in Sources */,
+				D72B652724ADBD4600198D4F /* EmailViewController.swift in Sources */,
 				D7FFA2C924AB2AB500E009B8 /* ViewController.swift in Sources */,
 				D7FFA2C524AB2AB500E009B8 /* AppDelegate.swift in Sources */,
 				D7BB511E24AC488700C6B036 /* AppleSignInViewController.swift in Sources */,
 				D7BB513624AC745000C6B036 /* HomeViewController.swift in Sources */,
 				D7BB512224AC489B00C6B036 /* FacebookSignInViewController.swift in Sources */,
 				D7FFA2C724AB2AB500E009B8 /* SceneDelegate.swift in Sources */,
+				D72B651F24ADA0EE00198D4F /* CircularProgressView.swift in Sources */,
 				D7BB513224AC70F000C6B036 /* SignupWithEmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

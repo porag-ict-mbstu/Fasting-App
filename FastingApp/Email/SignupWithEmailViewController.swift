@@ -24,9 +24,8 @@ class SignupWithEmailViewController: UIViewController {
         let email = emailField.text
         let password = passwordField.text
         if let email = email,let password = password{
-         
             FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
-                print(result)
+                //print(result)
                 
             }
             

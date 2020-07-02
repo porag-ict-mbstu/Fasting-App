@@ -32,6 +32,14 @@
 				<string>com.googleusercontent.apps.803443962594-oq0ddff9f875jr4rb1qolugam5obmnee</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.kabir.FastingApp</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>

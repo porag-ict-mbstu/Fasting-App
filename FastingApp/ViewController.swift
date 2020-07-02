@@ -21,7 +21,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func emailsignIn(_ sender: Any) {
-        let vc = EmailSignInViewController(nibName: "EmailSignInViewController", bundle: nil) as EmailSignInViewController
+//        let vc = EmailSignInViewController(nibName: "EmailSignInViewController", bundle: nil) as EmailSignInViewController
+//        self.navigationController?.pushViewController(vc, animated: true)
+        
+        let vc = EmailViewController(nibName: "EmailViewController", bundle: nil) as EmailViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -31,6 +34,10 @@ class ViewController: UIViewController {
     }
     @IBAction func facebookSignIn(_ sender: Any) {
         let vc = FacebookSignInViewController(nibName: "FacebookSignInViewController", bundle: nil) as FacebookSignInViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func circularProgress(_ sender:UIButton){
+        let vc = CircularProgessVC(nibName: "CircularProgessVC", bundle: nil)as CircularProgessVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
