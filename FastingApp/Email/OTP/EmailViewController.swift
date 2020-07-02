@@ -21,7 +21,22 @@ class EmailViewController: UIViewController {
 
 
     @IBAction func submitAction(_ sender: Any) {
-        self.SendMail()
+        
+        guard let text = self.emailField.text, text.isEmpty == false else {
+            
+            self.inValiadMailAnimation()
+            return
+        }
+        
+        if self.isEmailValid(text) {
+            
+            self.SendMail()
+            
+        }else{
+            
+            self.inValiadMailAnimation()
+        }
+        
     }
     
     
@@ -136,5 +151,52 @@ extension EmailViewController{
     
     
     
+    
+    public func isEmailValid(_ email: String) -> Bool {
+        
+        let emailRegEx =  "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$"
+        
+        var returnValue = true
+        
+        do {
+            let regex = try NSRegularExpression(pattern: emailRegEx, options: .caseInsensitive)
+            
+            let nsString = email as NSString
+            
+            let results = regex.matches(in: email, range: NSRange(location: 0, length: nsString.length))
+            
+            print("Email validation  result : \(results) ")
+            
+            if results.count == 0
+            {
+                returnValue = false
+            }
+            
+        } catch let error as NSError {
+            print("invalid regex: \(error.localizedDescription)")
+            returnValue = false
+        }
+        
+        return returnValue
+    }
+    
+    
+    private func inValiadMailAnimation(){
+        
+        UIView.animate(withDuration: 0.5, animations: {
+            
+            //self.lblInvalidMail.alpha = 1
+            
+        }) { (suucess) in
+            
+            UIView.animate(withDuration: 0.3, delay: 1, options: .curveEaseInOut, animations: {
+                
+                //self.lblInvalidMail.alpha = 0
+                
+            }, completion: nil)
+            
+        }
+        
+    }
 
 }

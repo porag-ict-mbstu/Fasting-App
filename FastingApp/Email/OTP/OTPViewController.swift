@@ -31,5 +31,8 @@ class OTPViewController: UIViewController {
         }
     }
     
-
+    @IBAction func getNewOTP(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
 }
